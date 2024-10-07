@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Luiz Belém</title>
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/847984029034610708/1290699220558286870/computerlogo.png?ex=66fd68d2&is=66fc1752&hm=5b8b36601e43e542f44f5652a14f0df86abd3399b17c94a781a6d4bc8b6cd009&" type="image/x-icon">
+    <style>
+                body {
+            background-color: #BDBDBD;
+        }
+
+         #cabecario {
+            
+            border-width: 10px;
+            border-color:#C3C3C3;
+            height: 50px;
+            margin-bottom:10px ;
+            padding-bottom: 20px;
+            background: linear-gradient(to right, #013b9e,#029191);
+            font-size: 20px;
+            
+        }
+        * {
+            font-family:Monocraft,Bahnschrift,"Microsoft Sans Serif";
+        }
+
+        #janela {
+            background-color:#C3C3C3;
+            border-width: 10px;
+            border-color:#C3C3C3;
+            height: 780px;
+            padding: 0px;
+            display: block;
+        }
+        #nome-janela {
+            position: absolute;
+            top: 7px;
+            color: white;
+        }
+
+        #botaomin {
+            width: 80px;
+            position:absolute;
+            right: 150px;
+            top: 25px;
+        }
+        #botaojanela {
+            width: 80px;
+            position:absolute;
+            right: 85px;
+            top: 25px;
+        }
+        #botaofechar {
+            width: 80px;
+            position:absolute;
+            right: 20px;
+            top: 25px;
+        }
+        .home {
+            display: flex;           
+            flex-flow: row nowrap;
+        }
+        .home-button {
+
+            width: 120px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        .home-button:hover {
+
+            background-color: rgb(86, 85, 85);
+
+        }
+        .home a {
+            text-decoration: none;
+            display: block;
+        }
+
+        a {
+            color: black;
+        }
+
+        #foto {
+            width: 400px;
+            border: solid 5px rgb(86, 85, 85);
+            
+
+       }
+        
+        .contato{
+            width: 50px;
+            
+        }
+
+        .foto-e-texto {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            gap: 30px;
+            flex-flow:row wrap;
+            margin-top: 150px;
+        }
+    </style>
+</head>
+<body >
+    <div>
+        <fieldset id="cabecario">
+                    <header>
+                        <h1 id="nome-janela">Portfolio - Luiz Belém</h1>
+                        <img id="botaomin" src="/assets/imagens/botãominimizar.png">
+                        <img id="botaojanela" src="/assets/imagens/botaojanela.png">
+                        <a href="https://www.google.com.br"><img id="botaofechar" src="/assets/imagens/botaofechar.png"></a>
+                    </header>
+                </div>
+        </fieldset>
+        
+                <header>
+                    <nav class="home">
+                        <div class="home-button">
+                            <a href="./home.html">Home</a>
+                        </div>
+                        <div class="home-button">
+                            <a href="./sobremim.html">Sobre Mim</a>
+                        </div>
+                        <div class="home-button">
+                            <a href="./projetos.html">Projetos</a>
+                        </div>
+                        <div class="home-button">
+                            <a href="./contato.html">Contato</a>
+                        </div>
+                    </nav>
+                </header>
+                    <div class="foto-e-texto">
+                        <img id="foto" src="/assets/imagens/belem.png">
+                            <div>
+                                <h1 class="titulo">Luiz Carlos Belém</h1> 
+                                <h2>Sobre mim</h2>
+                                <p>Atualmente cursando o 2° período de Ciência da Computação,tenho uma sólida experiência em assistência técnica,<br>
+                                    o que me permitiu desenvolver habilidades práticas em soluções de hardware. Com uma mentalidade proativa e um forte<br>
+                                    interesse em aprender, estou comprometido em expandir meus conhecimentos e contribuir para projetos desafiadores no<br>
+                                    campo da computação.</p>
+                                <p>Sou uma pessoa dedicada as vezes criativa. Gosto de Desenhar, Tocar Violão
+                                    E eu amo minha Namorada.</p>
+                                <br>
+                                <br>
+                                <a href="https://www.instagram.com/luizbelem0/" style="text-decoration: none"><h3>Contrate-me</h3></a>
+                        <a href="https://www.linkedin.com/in/luiz-carlos-bel%C3%A9m-de-oliveira-neto-3979702b6/" target="_blank"><img  class="contato" id="linkedin" src="https://cdn.icon-icons.com/icons2/2873/PNG/512/linkedin_pixel_logo_icon_181925.png"></a>
+                        <a href="https://www.instagram.com/luizbelem0/" target="_blank"><img  class="contato" id="instagram" src="https://i.pinimg.com/originals/b6/2f/6f/b62f6f913571a0254f4e4f636838977f.png"></a>
+                        <a href="https://github.com/LuizBelem" target="_blank"><img  class="contato" id="github" src="https://static-00.iconduck.com/assets.00/github-icon-2048x2048-4uclrgic.png"></a>
+                    </div>
+</body>
+</html>

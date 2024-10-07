@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Luiz Belém</title>
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/847984029034610708/1290699220558286870/computerlogo.png?ex=66fd68d2&is=66fc1752&hm=5b8b36601e43e542f44f5652a14f0df86abd3399b17c94a781a6d4bc8b6cd009&" type="image/x-icon">
+    <style>
+                body {
+            background-color: #BDBDBD;
+        }
+
+         #cabecario {
+            
+            border-width: 10px;
+            border-color:#C3C3C3;
+            height: 50px;
+            margin-bottom:10px ;
+            padding-bottom: 20px;
+            background: linear-gradient(to right, #013b9e,#029191);
+            font-size: 20px;
+            
+        }
+
+        * {
+            font-family:Monocraft,Bahnschrift,"Microsoft Sans Serif";
+        }
+
+        #janela {
+            background-color:#C3C3C3;
+            border-width: 10px;
+            border-color:#C3C3C3;
+            height: 780px;
+            padding: 0px;
+            display: block;
+        }
+        #nome-janela {
+            position: absolute;
+            top: 7px;
+            color: white;
+        }
+
+        #botaomin {
+            width: 80px;
+            position:absolute;
+            right: 150px;
+            top: 25px;
+        }
+        #botaojanela {
+            width: 80px;
+            position:absolute;
+            right: 85px;
+            top: 25px;
+        }
+        #botaofechar {
+            width: 80px;
+            position:absolute;
+            right: 20px;
+            top: 25px;
+        }
+        .home {
+            display: flex;           
+            flex-flow: row nowrap;
+        }
+        .home-button {
+
+            width: 120px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        .home-button:hover {
+
+            background-color: rgb(86, 85, 85);
+
+        }
+        .home a {
+            text-decoration: none;
+            display: block;
+        }
+
+        a {
+            color: black;
+        }
+
+        #foto {
+            width: 400px;
+            border: solid 5px rgb(86, 85, 85);
+            
+
+       }
+        
+        .contato{
+            width: 50px;
+            
+        }
+
+        .foto-e-texto {
+            align-items: center;
+            display: flex;
+            gap: 30px;
+            flex-flow:row wrap;
+            margin-top: 70px;
+            margin-left: 80px;
+        }
+
+
+
+        #desenho-perfil {
+
+            position: absolute;
+            right: 100px;
+            top: 250px;
+        }
+
+        #fumando {
+            position: absolute;
+            right: 450px;
+            top: 250px;
+        }
+        .desenhos {
+            border: solid #C3C3C3;
+        }
+
+        #html {
+            width: 25px;
+            position: absolute;
+            left: 140px;
+            top: 345px;
+        }
+    </style>
+</head>
+<body style="overflow: hidden;">
+    <div>
+        <fieldset id="cabecario">
+                    <header>
+                        <h1 id="nome-janela">Portfolio - Luiz Belém</h1>
+                        <img id="botaomin" src="/assets/imagens/botãominimizar.png">
+                        <img id="botaojanela" src="/assets/imagens/botaojanela.png">
+                        <a href="https://www.google.com.br"><img id="botaofechar" src="/assets/imagens/botaofechar.png"></a>
+                    </header>
+                </div>
+        </fieldset>
+
+                <header>
+                    <nav class="home">
+                        <div class="home-button">
+                            <a href="./home.html">Home</a>
+                        </div>
+                        <div class="home-button">
+                            <a href="./sobremim.html">Sobre Mim</a>
+                        </div>
+                        <div class="home-button">
+                            <a href="./projetos.html">Projetos</a>
+                        </div>
+                        <div class="home-button">
+                            <a href="./contato.html">Contato</a>
+                        </div>
+                    </nav>
+                </header>
+                    <div class="foto-e-texto">
+                            <div>
+                                <h1 class="titulo">Projetos</h1>
+                                    <h3>Programação</h3>
+                                        <ul>
+                                            <li><b>HTML</b></li>
+                                            <p>Atulamente Estudando HTMl no curso da DIO</p>
+                                            <li><b>CSS</b></li>
+                                            <p>Atualmente Estudando CSS no curso da DIO</p>
+                                        </ul>
+                                    <h3>Arte</h3>
+                                        <ul>
+                                            <li>Desenhos</li>
+                                            <li>Musica</li>
+                                            <li>Trabalhos da Faculdade</li>
+                                        </ul>
+                    </div>
+</body>
+</html>
